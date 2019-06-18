@@ -63,13 +63,6 @@
     "webpack-manifest-plugin": "2.0.4",
     "workbox-webpack-plugin": "4.2.0"
   },
-  "scripts": {
-    "start": "node scripts/start.js --env=dev",
-    "build": "node scripts/build.js --env=test",
-    "build:uat": "node scripts/build.js --env=uat",
-    "build:pro": "node scripts/build.js --env=pro",
-    "test": "node scripts/test.js"
-  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -128,11 +121,6 @@
       "react-app"
     ]
   },
-  "homepage": {
-    "pro": "www",
-    "uat":"uat",
-    "test": "test"
-  },
   "devDependencies": {
     "postcss-aspect-ratio-mini": "0.0.2",
     "postcss-write-svg": "^3.0.1",
@@ -140,5 +128,21 @@
     "postcss-viewport-units": "^0.1.6",
     "cssnano": "^4.1.7",
     "cssnano-preset-advanced": "^4.0.5"
+  },
+  "scripts": {
+    "start": "node scripts/start.js --env=dev",
+    "build": "node scripts/build.js --env=test",
+    "build:uat": "node scripts/build.js --env=uat",
+    "build:pro": "node scripts/build.js --env=pro",
+    "test": "node scripts/test.js"
+  },
+  "homepage": {
+    "pro": "www",
+    "uat":"uat",
+    "test": "test"
+  },
+  "xpm3": {
+    "rep": "sr012018",
+    "output": "build/"
   }
 }
