@@ -113,9 +113,13 @@ module.exports = function(webpackEnv) {
             }),
             require("postcss-viewport-units"),
             require("cssnano")({
-              preset: "advanced",
-              autoprefixer: false,
-              "postcss-zindex": false
+              // preset: "advanced",
+              // autoprefixer: false,
+              // "postcss-zindex": false,
+              "cssnano-preset-advanced": {
+                zindex: false,
+                autoprefixer: false
+              }
             }),
             //**** vw功能取消注释区域
 
