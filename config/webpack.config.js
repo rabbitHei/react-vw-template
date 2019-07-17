@@ -273,6 +273,32 @@ module.exports = function(webpackEnv) {
         chunks: 'all',
         name: false,
       },
+      
+      //**** 拆包功能
+      // splitChunks: {
+      //   chunks: "all",
+      //   name: false,
+      //   cacheGroups: {
+      //       reactModules: {
+      //         test:  /[\\/]node_modules[\\/](react|react-dom|react-router-dom)[\\/]/,
+      //         name:'reactModules',
+      //         chunks: "all",
+      //         minChunks: 1,
+      //         priority: 2,
+      //         // reuseExistingChunk: true,
+      //       },
+      //       html2canvas: {
+      //         test:  /[\\/]node_modules[\\/](html2canvas)[\\/]/,
+      //         name:'html2canvas',
+      //         chunks: "all",
+      //         minChunks: 1,
+      //         priority: 2,
+      //         // reuseExistingChunk: true,
+      //       },
+      //   }
+      // },
+      //**** 拆包功能
+
       // Keep the runtime chunk separated to enable long term caching
       // https://twitter.com/wSokra/status/969679223278505985
       runtimeChunk: true,
