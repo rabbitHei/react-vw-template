@@ -25,3 +25,14 @@ vw 适配模板
     }),
 //**** vw功能取消注释区域
 ```
+
+默认添加SDK 功能 取消可注释 
+src/index.js
+```sh
+import '@/utils/sdkConfig';//sdk
+```
+public/index.html
+```sh
+    <!-- sdk -->
+    <script src='https://s1.xmcdn.com/lib/jssdk/1.1.1/build/ly.js'></script>
+```
