@@ -127,7 +127,8 @@
     "postcss-px-to-viewport": "0.0.3",
     "postcss-viewport-units": "^0.1.6",
     "cssnano": "^4.1.7",
-    "cssnano-preset-advanced": "^4.0.5"
+    "cssnano-preset-advanced": "^4.0.5",
+    "vconsole": "^3.3.2"
   },
   "scripts": {
     "start": "node scripts/start.js --env=dev",
