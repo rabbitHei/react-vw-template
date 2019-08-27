@@ -2,7 +2,15 @@
 vw 适配模板
 
 ## 使用  
-需要取消适配,可注释config/webpack.config下
+
+```sh
+npm start 启动本地
+npm run build 打包测试
+npm run build:uat 打包uat
+npm run build:pro 打包线上
+```
+### 需要取消适配,可注释
+config/webpack.config下
 ```sh
 //**** vw功能取消注释区域
     require("postcss-aspect-ratio-mini"),
@@ -26,7 +34,7 @@ vw 适配模板
 //**** vw功能取消注释区域
 ```
 
-默认添加SDK 功能 取消可注释 
+### 默认添加SDK 功能 取消可注释 
 src/index.js
 ```sh
 import '@/utils/sdkConfig';//sdk
