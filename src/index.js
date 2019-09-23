@@ -6,9 +6,12 @@ import './utils/axiosMiddleware';
 // import { BrowserRouter as Router } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import '@/utils/sdkConfig';//sdk
+import FastClick from 'fastclick';
 
 // import VConsole from 'vconsole';
 // const vconsole = new VConsole();
+
+FastClick.attach(document.body);
 
 ReactDOM.render(
   <Routes />,

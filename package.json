@@ -122,12 +122,13 @@
     ]
   },
   "devDependencies": {
-    "postcss-aspect-ratio-mini": "0.0.2",
-    "postcss-write-svg": "^3.0.1",
-    "postcss-px-to-viewport": "0.0.3",
-    "postcss-viewport-units": "^0.1.6",
     "cssnano": "^4.1.7",
     "cssnano-preset-advanced": "^4.0.5",
+    "fastclick": "^1.0.6",
+    "postcss-aspect-ratio-mini": "0.0.2",
+    "postcss-px-to-viewport": "0.0.3",
+    "postcss-viewport-units": "^0.1.6",
+    "postcss-write-svg": "^3.0.1",
     "vconsole": "^3.3.2"
   },
   "scripts": {
@@ -139,7 +140,7 @@
   },
   "homepage": {
     "pro": "www",
-    "uat":"uat",
+    "uat": "uat",
     "test": "test"
   },
   "xpm3": {
