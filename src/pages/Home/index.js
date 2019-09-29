@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './home.scss';
-import appImgs from '@/constant/appImgs.js'
+import appImgs from '@/constant/appImgs.js';
+// import { withRouter } from 'react-router';
+// @withRouter
+
 export default class Home extends Component {
 
   render() {
