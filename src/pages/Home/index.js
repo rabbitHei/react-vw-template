@@ -11,6 +11,7 @@ export default class Home extends Component {
       <div>
         <img src={appImgs.back} alt="" />
         <p className="home">this is home page</p>
+        <p className="less">less编译</p>
       </div>
     )
   }
